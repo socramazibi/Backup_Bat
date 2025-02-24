@@ -1,5 +1,6 @@
 # Backup_Bat
-    Este script (Version {version}) genera un archivo .bat que realiza una copia de seguridad de los archivos de guardado de un juego y los comprime en un archivo ZIP.
+    Este script (Version {version}) genera un archivo .bat que realiza una copia de seguridad de los archivos
+    de guardado de un juego y los comprime en un archivo ZIP.
 
     Funcionamiento:
     1. Solicita al usuario las rutas de las carpetas de savegame (pueden ser varias).
@@ -11,4 +12,5 @@
        - Comprime los archivos de guardado en el ZIP.
     5. Una vez generado el archivo .bat, muestra un mensaje de exito y espera a que el
        usuario presione una tecla para salir.
-    6. Pulsa Ctrl+c para cancelar este proceso en cualquier punto.
+
+       

@@ -1,10 +1,10 @@
 # Backup_Bat
     Creado a partir ChatGPT, basado en el modelo GPT-4.
     
-    Y luego no se cuantas horas mas preguntando y modificando para dejarlo mas o menos como quería.
-    Es un simple script en python, que crea un archivo .bat que realiza copias de carpetas y las comprime en otra ruta.
-    Yo el .bat generado lo pongo en el escritorio a los juegos que mas juego y cuando termino de jugar inicio el .bat
-    para crear una copia del savegame. Puede hacer varias copias de diferentes carpetas.
+Y luego no se cuantas horas mas preguntando y modificando para dejarlo mas o menos como quería.
+Es un simple script en python, que crea un archivo .bat que realiza copias de carpetas y lascomprime en otra ruta.
+Yo el .bat generado lo pongo en el escritorio a los juegos que mas juego y cuando termino de jugar inicio el .bat
+para crear una copia del savegame. Puede hacer varias copias de diferentes carpetas.
 
     Ejemplo:
             origen=C:\Users\Nombre_Usuario\Documents\Egosoft\X4\99866623
@@ -17,8 +17,8 @@
             destino=D:\BACKUP-JUEGOS
             nombre del juego=RisingWorld
             
-    Este script (Version {version}) genera un archivo .bat que realiza una copia de seguridad de los archivos
-    de guardado de un juego y los comprime en un archivo ZIP.
+Este script (Version {version}) genera un archivo .bat que realiza una copia de seguridad de los archivos
+de guardado de un juego y los comprime en un archivo ZIP.
 
     Funcionamiento:
     1. Solicita al usuario las rutas de las carpetas de savegame (pueden ser varias).

@@ -15,7 +15,7 @@ def mostrar_explicacion(version):
        - Crea una carpeta con el nombre del juego seguido de "_Backup".
        - Dentro de esa carpeta, genera un archivo ZIP con la fecha y hora actuales.
        - Comprime los archivos de guardado en el ZIP.
-    5. Una vez generado el archivo .bat, muestra un mensaje de éxito y espera a que el
+    5. Una vez generado el archivo .bat, muestra un mensaje de exito y espera a que el
        usuario presione una tecla para salir.
     6. Pulsa Ctrl+C para cancelar este proceso en cualquier punto.
     """)
@@ -96,7 +96,7 @@ def crear_script_backup():
         
         bat.write("if %errorlevel% equ 0 (\n")
         bat.write("    echo.\n")
-        bat.write("    echo Copia de seguridad creada con éxito en \"!archivoZIP!\"\n")
+        bat.write("    echo Copia de seguridad creada con exito en \"!archivoZIP!\"\n")
         bat.write("    echo.\n")
         bat.write(") else (\n")
         bat.write("    echo.\n")
@@ -105,7 +105,7 @@ def crear_script_backup():
         bat.write(")\n\n")
         bat.write("pause\n")
 
-    print(f"\n✅ Archivo '{nombre_archivo}' creado con éxito.")
+    print(f"\n✅ Archivo '{nombre_archivo}' creado con exito.")
     input("Presiona Enter para salir...")
 
 if __name__ == "__main__":
